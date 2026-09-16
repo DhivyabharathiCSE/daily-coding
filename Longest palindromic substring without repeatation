@@ -1,0 +1,26 @@
+
+Longest palindromic substring without repeation
+
+#include<iostream>
+using namespace std;
+int main{
+string s;
+cin>>s;
+set<char>c
+int l=0;int max=0;
+int r=0;
+for(int r=0;i<s.length();r++)
+{
+while(c.count(s.at(r))
+{
+c.erase(s.at(l))
+{
+l++;
+}
+c.insert(s.at(r))
+{
+max=Math.max(max,r-l+1)
+}
+cout<<max;
+}
+}
