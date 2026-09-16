@@ -1,0 +1,19 @@
+valid parentheses
+
+#include<iostream>
+using namespace std;
+int main()
+{
+string s;
+cin>>s;
+}
+ while(s.find("()") != string::npos ||
+s.find("{}") != string::npos ||
+s.find("[]") != string::npos ;
+if(s.find("()") != string::npos )
+s.erase(pos,2);
+if(s.find("{}") != string::npos )
+s.erase(pos,2);
+if(s.find("[]") != string::npos )
+s.erase(pos,2);
+return s.empty();
