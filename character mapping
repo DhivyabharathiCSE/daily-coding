@@ -1,0 +1,20 @@
+Coding Questions
+1.Given an integer N, generate the character corresponding to each number using the pattern:
+1 → C, 2 → F, 3 → I, ...
+Every next number moves in the alphabet. After Z, start again from A.
+For N = 1 to 20, output the corresponding characters.  
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int n;
+cin>>n;
+for(int i=1;i<=n;i++)
+{
+char c='A'+((3*i-1)%26);
+cout<<c<<" ";
+}
+
+}
